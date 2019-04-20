@@ -8,3 +8,5 @@ print(r.url, r.status_code)
 cs_url = 'http://www.haosou.com/s'
 r = requests.get(cs_url, params=param, allow_redirects=False)
 print(r.url, r.status_code, r.history)
+print(r.url, r.status_code, r.history)
+
